@@ -7,10 +7,16 @@
     href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
     rel="stylesheet"
 />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>PIZZA</title>
 </head>
 <body>
-    <header>
+    <header class="header">
+        <div class="pizza-image-background"></div>
+        <div class="nav">
         <div class="nav-menu">
             <ul class="nav-menu-list">
                 <li><a href="">Menu</a></li>
@@ -22,25 +28,50 @@
             <button class="btn-app">POBIERZ APLIKACJĘ</button>
         </div>
         <div class="logo">LOGO</div>
-        <div class="nav-menu">
+        <div class="nav-menu-meal">
             <div class="pizza">
-                <i class="ri-restaurant-2-fill"></i>
-                <p>menu pizza</p>
+                <a class="pizza-a" href="">
+                <i class="ri-restaurant-2-fill icon"></i>
+                <p class="menu-product-name">menu pizza</p>
+                </a>
             </div>
             <div class="kebab">
-                <i class="ri-bread-fill"></i>
-                <p>menu kebab</p>
+                <a class="kebab-a" href="">
+                <i class="ri-bread-fill icon"></i>
+                <p class="menu-product-name">menu kebab</p>
+                </a>
             </div>
             <div class="zapiekanki">
-                <i class="ri-bread-line"></i>
-                <p>menu zapiekanki</p>
+                <a class="zapiekanki-a" href="">
+                <i class="ri-bread-line icon"></i>
+                <p class="menu-product-name">menu zapiekanki</p>
+                </a>
             </div>
             <div class="desery">
-                <i class="ri-cake-3-line"></i>
-                <p>menu desery</p>
+                <a class="desery-a" href="">
+                <i class="ri-cake-3-line icon"></i>
+                <p class="menu-product-name">menu desery</p>
+            </a>
             </div>
         </div>
+        </div>
     </header>
+    <main class="main">
+        <p class="days-of-week">pracujemy 7 dni w tygodniu</p>
+        <div class="days-hours">
+        <div class="days">
+            <p class="monday-thursday">poniedziałek-czwartek</p>
+            <p class="friday">piątek</p>
+            <p class="sobota-niedziela">sobota-niedziela</p>
+        </div>
+        <div class="hours">
+            <p class="monday-thursday-hour">11.00-22.00</p>
+            <p class="friday-hour">11.00-1.00</p>
+            <p class="sobota-niedziela-hour">10.00-24.00</p>
+        </div>
+        </div>
+    </div>
+    </main>
  
 </body>
 </html>
