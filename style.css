@@ -23,9 +23,10 @@
 
  .nav-menu {
     height: 10vh;
-    background-color: black;
+    background: linear-gradient(to bottom, black, 75%, transparent);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 14px 0;
     font-size: 22px;
     opacity: .7;
@@ -33,6 +34,7 @@
 
  .nav-menu-list {
     display: flex;
+    justify-content: center;
     padding-left: 20px;
  }
 
@@ -58,6 +60,27 @@
 
  }
 
+ .btn-app {
+
+  margin-right: 40px;
+  background-color: white;
+  width: 11vw;
+  height: 8vh;
+  font-size: 17px;
+  font-weight: bold;
+  color: orangered;
+  border: none;
+  border-radius: 10px;
+  transition: .4s ease;
+  cursor: pointer;
+ }
+
+ .btn-app:hover {
+  background-color: orangered;
+  color: white;
+  
+ }
+
  .nav-menu-meal {
    display: flex; 
    justify-content: space-around;
@@ -74,7 +97,14 @@
    height: 220px;
    width: 200px;
    border-radius: 5%;
+   top: 0;
+   transition: 1s;
 
+ }
+
+ .pizza-a:hover, .kebab-a:hover, .zapiekanki-a:hover, .desery-a:hover  {
+  position: relative;
+  top: -40px;
  }
  .icon {
    font-size: 50px;
@@ -87,6 +117,8 @@
 
  .main {
    margin-top: 20px;
+   background-color: rgb(188, 81, 60);
+   background: linear-gradient(to right, white, rgb(211, 182, 176), white);
  }
 
  .days-of-week, .days, .hours {
@@ -106,4 +138,40 @@
    flex-direction: column;
    padding:  0 20px;
  }
+ .additional-info {
+  display: flex;
+  flex-direction: column;
+  
+  text-align:  center;
+ }
 
+ .dowoz a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 0 10px;
+ }
+
+ .footer {
+  display: flex;
+  justify-content: space-around;
+  font-size: 11px;
+  background-color: rgb(92, 43, 24);
+  color: rgb(255, 224, 147);
+
+ }
+
+ .footer-list li a {
+  text-decoration: none;
+  color: rgb(255, 224, 147);
+ }
+ .adres-telefon li a, li span {
+  text-decoration: none;
+  color: rgb(226, 168, 42);
+ }
+
+ .footer-list li, .adres-telefon li{
+
+  list-style: none;
+ }
