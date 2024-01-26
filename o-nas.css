@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Kanit;
+}
+
+.kebab-image-background {
+    background-image: url(media/background-kebab.jpg);
+    position: relative;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    opacity: .5;
+}
+
+.order-phone-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 14px 0;
+    font-size: 25px;
+    opacity: .7;
+    color: white;
+ }
+
+ .order {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: .5s;
+ }
+
+
+ .order:hover {
+   font-size: 50px;
+ }
+
+ .icon:hover {
+   color: orange;
+   transform: rotate(90deg);
+   animation: phone .3s infinite;
+
+ }
+
+ @keyframes phone {
+   0% {transform: rotate(0deg);}
+   50% {transform: rotate(90deg);}
+   100% {transform: rotate(0deg);}
+ }
+
+ .phone {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+ }
+
+ .phone-number {
+    margin-right: 50px;
+ }
+
+.about {
+   display: flex;
+   
+}
+.descr-picture {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+ .pizzeria-image {
+     height: 60vh;
+     width: 65vw;
+ }
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 11px;
+    background-color: rgb(92, 43, 24);
+    color: rgb(255, 224, 147);
+  
+   }
+  
+   .footer-list li a {
+    text-decoration: none;
+    color: rgb(255, 224, 147);
+   }
+   .adres-telefon li a, li span {
+    text-decoration: none;
+    color: rgb(226, 168, 42);
+   }
+  
+   .footer-list li, .adres-telefon li{
+  
+    list-style: none;
+   }
