@@ -20,17 +20,22 @@
             <ul class="nav-menu-list">
                 <li><a href="index.html">LOGO</a></li>
                 <li><a href="">Menu</a></li>
-                <li><a href="">Zamów</a></li>
+                <li><a href="cart.html">Zamów</a></li>
                 <li><a href="">Promocje</a></li>
                 <li><a href="">Restauracje</a></li>
                 <li><a href="">Kontakt</a></li>
             </ul>
+            <a href="cart-in.html">
             <div class="button-pizza">
-            <button class="pizza"></a><img class="pizza-img" src="pizza.png" alt=""></button>
-            <div class="pizza-counter">0</div>
+            <button class="pizza"><img class="pizza-img" src="pizza.png" alt=""></button>
+            <div id="cartAmount" class="cartAmount">0</div>
+       
+            </a>
         </div>
+    
             <button class="btn-app">POBIERZ APLIKACJĘ</button>
         </div>
+    </header>
         <div class="order" id="order">
             <!--
         <div class="item">
@@ -94,8 +99,10 @@
             </div>
         </div>  
         -->
-    </div>
-    <script src="app-cart.js"></script>
+        </div>
+ 
     
 </body>
+<script src="data.js"></script>
+<script src="app-cart.js"></script> 
 </html>

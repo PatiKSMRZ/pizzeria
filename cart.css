@@ -70,7 +70,7 @@
     margin: 20px 60px 0 60px;
     cursor: pointer;
 }
-.pizza-counter {
+.cartAmount {
     position: absolute;
     top: -5px;
     left: 63%;
@@ -116,5 +116,10 @@
   }
   i {
     cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    color:white;
   }
   
