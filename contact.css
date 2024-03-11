@@ -67,16 +67,41 @@
 
    .form {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
+  
     margin-top: 3rem;
-    border: 1px solid black;
-    width: 40rem;
+    width: 70rem;
    }
 
-   .form-detail {
-    display: flex;
- 
-    border: 1px solid rgb(238, 35, 35);
-   }
+   .li-form {
+      display: flex;
+      justify-content: flex-end;
+      padding: .5em;
+      width: 40rem;
+    }
+    .li-form > label {
+      padding: .5em 1em .5em 0;
+      flex: 1;
+    }
+    .li-form > input {
+      flex: 3;
+    }
+
+    .li-form > button {
+      background-color: rgb(250, 226, 184);
+      width: 11vw;
+      height: 8vh;
+      font-size: 17px;
+      font-weight: bold;
+      color: orangered;
+      border: none;
+      border-radius: 10px;
+      transition: .4s ease;
+      cursor: pointer;
+    }
+
+    .li-form > button:hover {
+      background-color: orangered;
+      color: white;
+      
+     }
